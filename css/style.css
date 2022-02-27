@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+  
 }
 html{
     height: 100%;
@@ -13,6 +15,12 @@ body{
     color: yellow;
     background-color: black;
 }
+
+.card-body {
+    background-color: black;
+    text-align: center !important;
+  }
+
 
 .grillasite{
     text-align: center;
@@ -65,14 +73,24 @@ body{
 
 .main{
     grid-area: main;
-    background-color: black;  
+    background-color: black; 
+    
     display: flex;
     justify-content: center;
     align-items:center;
 }
+.main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+}
 
-main img{
-    width: 60%;
+.main img{
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 30%;    
     
 }
 

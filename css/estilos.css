@@ -1,0 +1,54 @@
+img{
+    width: 100%;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.div1{
+    margin: 5px;
+    margin-top: 40px;
+   
+}
+
+.img_menu{
+    width: 15px;
+}
+
+.img_portada{
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 0%;
+    
+}
+
+.div_footer{
+    padding: 15%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: yellow;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+}
+
+.div_footer img{
+    width: 50px;
+    
+}
+
+.texto_futer_secundario{ 
+    color: silver;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.rocahoja{
+    padding-left: 45%;
+    padding-right: 45%;
+    
+}
+
+.rocahoja img{
+margin-bottom: 50%;
+}

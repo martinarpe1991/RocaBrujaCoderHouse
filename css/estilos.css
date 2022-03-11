@@ -13,11 +13,11 @@ img{
 .img_portada{
     width: 100%;
     padding: 10%;
-    padding-bottom: 0%;}
+    padding-bottom: 5%;}
 
 .div_footer{
-    padding: 15%;
-    padding-bottom: 5%;
+    padding: 10%;
+    padding-bottom: 2%;
     text-align: center;
     color: yellow;
     font-family: bebas-neue,sans-serif;
@@ -39,3 +39,23 @@ img{
 
 .rocahoja img{
 margin-bottom: 50%;}
+
+.text_ingresos{
+    text-align: center;
+}
+
+.text_ingresos p{
+    color: yellow;
+    font-family: bebas-neue,sans-serif;
+}
+
+h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.form_cont{
+    color: yellow;
+    
+}
+

@@ -1,0 +1,23 @@
+@mixin contenedor ($fondo, $ancho:350px, $alto:30px) {
+    background-color: $fondo;
+    width: $ancho;
+    height: $alto;
+    display: inline-block;
+}
+.mixin_contenedor{
+    @include contenedor(red,110px,110px );
+}
+.mixin_contenedor1{
+    @include contenedor(yellowgreen,220px,200px);
+    
+}
+
+.mixin_contenedor2{
+    @include contenedor(orange,162px,53px);
+    
+}
+
+.mixin_contenedor3{
+    @include contenedor(purple);
+    
+}

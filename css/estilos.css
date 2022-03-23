@@ -73,6 +73,27 @@ h2 {
   height: 30px;
   display: inline-block; }
 
+.circulo, .extend_circulo1, .extend_circulo2, .extend_circulo3, .extend_circulo4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: inline-block; }
+
+.extend_circulo1 {
+  background-color: orangered; }
+
+.extend_circulo2 {
+  background-color: yellowgreen; }
+
+.extend_circulo3 {
+  background-color: burlywood; }
+
+.extend_circulo4 {
+  background-color: goldenrod; }
+
+.extend_circulo4:hover {
+  background-color: aquamarine; }
+
 img {
   width: 100%;
   margin-top: 4px;

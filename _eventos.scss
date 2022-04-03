@@ -1,0 +1,20 @@
+.contenedor_eventos{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor_foto_evento{
+    display: flex;
+    justify-content: center;
+}
+
+.foto_eventos{
+    width: 80%;
+}
+
+.foto_eventos:hover{
+    transform: scale(120%);
+    transition: 2s;
+}
+

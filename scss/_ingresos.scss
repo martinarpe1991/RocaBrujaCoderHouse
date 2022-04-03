@@ -29,10 +29,7 @@ height: 200px;
     transition: 2s;
 }
 
-@include tablet{
-.contenedor_card {
-    background-color: rgb(0, 0, 0);}
-}
+
 
 @include mobile{
 .contenedor_card {
@@ -48,3 +45,9 @@ height: 200px;
     margin-bottom: 10%;}
 }
 }
+
+@include tablet{
+    .contenedor_card {
+        background-color: rgb(0, 0, 0);}
+    }
+

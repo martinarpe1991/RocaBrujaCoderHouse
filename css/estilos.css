@@ -1,3 +1,19 @@
+.contenedor_eventos {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly; }
+
+.contenedor_foto_evento {
+  display: flex;
+  justify-content: center; }
+
+.foto_eventos {
+  width: 80%; }
+
+.foto_eventos:hover {
+  transform: scale(120%);
+  transition: 2s; }
+
 .rocahoja {
   padding-left: 45%;
   padding-right: 45%; }
@@ -22,10 +38,6 @@
   transform: scale(120%);
   transition: 2s; }
 
-@media only screen and (max-width: 900px) {
-  .contenedor_card {
-    background-color: black; } }
-
 @media only screen and (max-width: 480px) {
   .contenedor_card {
     background-color: rgba(0, 0, 0, 0.534);
@@ -36,6 +48,10 @@
       display: flex;
       justify-content: center;
       margin-bottom: 10%; } }
+
+@media only screen and (max-width: 900px) {
+  .contenedor_card {
+    background-color: black; } }
 
 .img_portada {
   width: 100%;

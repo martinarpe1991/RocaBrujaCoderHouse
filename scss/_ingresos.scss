@@ -10,7 +10,6 @@ margin-bottom: 50%;}
 .contenedor_card{
 background-color:black;
 display: flex;
-height: 300px;
 justify-content: space-evenly;
 align-items: center;
 }
@@ -28,4 +27,24 @@ height: 200px;
 .card_img:hover{
     transform: scale(120%);
     transition: 2s;
+}
+
+@include tablet{
+.contenedor_card {
+    background-color: rgb(0, 0, 0);}
+}
+
+@include mobile{
+.contenedor_card {
+    background-color: rgba(0, 0, 0, 0.534); 
+    display: inline;
+
+.card_img{
+    width: 50%;}
+
+.contenedor_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;}
+}
 }

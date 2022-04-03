@@ -8,7 +8,6 @@
 .contenedor_card {
   background-color: black;
   display: flex;
-  height: 300px;
   justify-content: space-evenly;
   align-items: center; }
 
@@ -22,6 +21,21 @@
 .card_img:hover {
   transform: scale(120%);
   transition: 2s; }
+
+@media only screen and (max-width: 900px) {
+  .contenedor_card {
+    background-color: black; } }
+
+@media only screen and (max-width: 480px) {
+  .contenedor_card {
+    background-color: rgba(0, 0, 0, 0.534);
+    display: inline; }
+    .contenedor_card .card_img {
+      width: 50%; }
+    .contenedor_card .contenedor_img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10%; } }
 
 .img_portada {
   width: 100%;

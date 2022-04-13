@@ -24,7 +24,7 @@
 .div_danke{
     display: inline-block;
     text-align: center;
-    color: silver;
+    color: $segundoColor;
     margin-top: 5%;
     margin: 0px;
     padding: 0px;
@@ -34,7 +34,7 @@
 
 .text{
     font-family: bebas-neue,sans-serif;
-    color: gold;
+    color: $madeColor;
     font-size: 40px;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@
     display: inline-block;
     text-align: center;
     margin-top: 5%;
-    color: silver;
+    color: $segundoColor;
     
     
 }
@@ -55,4 +55,6 @@
 .div_agradecimiento .motivo{
     font-family: bebas-neue,sans-serif;
     font-size: 40px;
+    margin-bottom: 2%;
+
 }

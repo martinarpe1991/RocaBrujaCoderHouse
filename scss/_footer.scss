@@ -2,7 +2,7 @@
     padding: 10%;
     padding-bottom: 2%;
     text-align: center;
-    color: #f0b618;
+    color: $madeColor;
     font-family: bebas-neue,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -12,6 +12,6 @@
     width: 50px; }
   
   .texto_futer_secundario {
-    color: silver;
+    color: $segundoColor;
     font-family: sans-serif;
     font-size: 15px; }
